@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>出席確認アプリ</title>
+  <style>
+    body {
+      font-family: "Helvetica", sans-serif;
+      text-align: center;
+      margin-top: 10%;
+      background: #f7f9fc;
+    }
+    h1 { color: #333; }
+    button {
+      padding: 15px 30px;
+      margin: 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #0078d4;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { background-color: #005fa3; }
+  </style>
+</head>
+<body>
+  <h1>出席確認システム</h1>
+  <p>用途を選択してください：</p>
+  <button onclick="window.location.href='https://attendance-vss-teacher.streamlit.app/'">
+    教員用アプリへ
+  </button>
+  <button onclick="window.location.href='https://attendance-vss-student.streamlit.app/'">
+    学生用アプリへ
+  </button>
+</body>
+</html>
